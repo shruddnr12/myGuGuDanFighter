@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="210dp"
+        android:text="No"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Yes"
+        android:textAllCaps="false"
+        android:layout_below="@+id/textView9"
+        android:layout_toEndOf="@+id/button5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="54dp"
+        android:text="다시 게임을 시작하시겠습니까?"
+        android:layout_above="@+id/button5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="맞춘 갯수    "
+        android:textSize="20sp"
+        android:layout_above="@+id/textView9"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
